@@ -13,5 +13,5 @@ Ett löfte i Javascript programmering är en representation eller också kallad 
 
 Källor:
 https://spring.io/understanding/javascript-promises
-[1]:../blob/master/license
+[1]:../blob/master/asynkron-eller-synkron/asynkron-eller-synkron.md
 [2]:../../../asynkron-eller-synkron/asynkron-eller-synkron.md
