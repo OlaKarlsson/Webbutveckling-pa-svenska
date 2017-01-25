@@ -8,9 +8,10 @@ Ett löfte i Javascript programmering är en representation eller också kallad 
 
 
 
-
+[Tillbaka till Readme](0)
 
 
 Källor:
 https://spring.io/understanding/javascript-promises
+[0]:./Readme
 [1]:./asynkron-eller-synkron/asynkron-eller-synkron.md
