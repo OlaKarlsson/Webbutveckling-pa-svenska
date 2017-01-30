@@ -1,9 +1,30 @@
 # Javascript - Promises (eller löfte på Svenska)
 
+Detta är ett intro till [Löften i Javascript (Promises på Engelska)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise). Målet är att även någon som är ganska ny inom programmering och Javascript ska kunna få ut något av detta.
+
 ## Vad är löften i Javascript?
 Ett löfte i Javascript programmering är en representation eller också kallad platshållare för resultatet av en [asynkron händelse](../asynkron-eller-synkron/asynkron-eller-synkron.md).
 
 ## Varför använda löften i Javascript?
+
+För att förstå varför det är bra att använda löften i vår Javascriptkod måste vi tita på vad det betyder att kod kan köras [synkront eller asynkront.](../asynkron-eller-synkron/asynkron-eller-synkron.md)
+
+### Problemet med synkron eller blockerande kod
+
+Många är vana vid synkron programmering där en sak händer efter en annan och koden måste vänta på att föregående sak ska bli färdig innan programmet kan gå vidare, detta kan också kallas för blockerande kod.
+Ofta är detta inte ett problem då koden körs oerhört snabbt och det märks inte om där blir små uppehåll där koden väntar på något.
+
+Nu kanske du tänker, men jag har skrivit en hel del Javascriptkod och inte märk några problem!
+När detta ofta blir till ett problem, är när man ska ladda in saker från någonstans, till exempel, från en fil, från en databas eller från en webbtjänst.
+
+Om man anropar en webbtjänst och nätverket är instabilt eller där är mycket trafik till den webbtjänsten just då, kan detta orsaka stora problem för din kod och användarna kommer definitivt att märka det och tycka att saker är långsamma. Laddar man in flera saker, kanske från flera olika ställen kan det bli så illa att användaren ger upp och då har du tappat den användaren.
+
+## Asynkron kod, till undsättning
+
+
+
+
+
 
 
 
