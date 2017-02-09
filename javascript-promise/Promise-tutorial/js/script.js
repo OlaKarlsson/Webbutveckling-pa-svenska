@@ -57,10 +57,5 @@ function makeRequest(url){
     httpRequest.open('GET', url, true);
     httpRequest.send(null);
 
-
   });
-
-
-
-
 }

@@ -7,7 +7,7 @@ Ett löfte i Javascript programmering är en representation eller också kallad 
 
 ## Varför använda löften i Javascript?
 
-För att förstå varför det är bra att använda löften i vår Javascriptkod måste vi tita på vad det betyder att kod kan köras [synkront eller asynkront.](../asynkron-eller-synkron/asynkron-eller-synkron.md)
+För att förstå varför det är bra att använda löften i vår Javascriptkod bör du först ha en förståelse för vad det betyder att kod kan köras [synkront eller asynkront.](../asynkron-eller-synkron/asynkron-eller-synkron.md)
 
 ### Problemet med synkron eller blockerande kod
 
