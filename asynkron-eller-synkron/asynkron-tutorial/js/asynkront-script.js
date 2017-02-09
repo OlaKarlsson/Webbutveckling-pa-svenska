@@ -1,5 +1,7 @@
-var name =getName();
-console.log(name);
+getName().then(function(name){
+    console.log(name);
+})
+
 
 console.log("Kod efter namnet");
 
