@@ -1,4 +1,13 @@
-var name = prompt("Please enter your name", "John Smith");
+var name = getName();
 console.log(name);
 
-console.log("Kod efter namnet");
+console.log("Kod som kommer efter att anropet till getUserName har hänt");
+
+
+
+function getName(){
+    
+    setTimeout(function(){
+        return "Jan Svensson"}, 1000);
+    
+}
